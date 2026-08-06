@@ -1,7 +1,7 @@
-@import url("../../sections/about/about.css");
-@import url("../../sections/publications/publications.css");
-@import url("../../sections/experience/experience.css");
-@import url("../../sections/honors/honors.css");
+@import url("about.css");
+@import url("publications.css");
+@import url("experience.css");
+@import url("honors.css");
 
 :root {
   color-scheme: light;
