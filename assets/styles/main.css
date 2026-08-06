@@ -58,7 +58,6 @@ nav a { color: var(--muted); font-size: 13px; }
 :root[data-theme="dark"] .publication-item:hover { border-color: #476782; box-shadow: 0 14px 34px rgba(0, 0, 0, .24); }
 :root[data-theme="dark"] .paper-thumb { background: var(--surface); }
 :root[data-theme="dark"] .paper-collage { background: #283442; }
-:root[data-theme="dark"] .paper-collage img { background: #fff; }
 :root[data-theme="dark"] .social-links a { background: rgba(23, 30, 39, .82); box-shadow: 0 4px 14px rgba(0, 0, 0, .12); }
 :root[data-theme="dark"] .about-copy a:hover strong { color: #a9d4ff; border-color: #a9d4ff; background: rgba(120, 183, 242, .08); }
 :root[data-theme="dark"] .honor-table > div:hover { background: rgba(120, 183, 242, .06); }
