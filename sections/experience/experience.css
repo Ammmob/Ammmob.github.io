@@ -1,0 +1,11 @@
+.experience-list { position: relative; }
+.experience-list::before { content: ""; position: absolute; top: 9px; bottom: 18px; left: 165px; width: 1px; background: var(--line); }
+.experience-list article { display: grid; grid-template-columns: 140px 1fr; gap: 50px; position: relative; padding: 0 0 29px; }
+.experience-list article::before { content: ""; position: absolute; top: 7px; left: 161px; width: 7px; height: 7px; border: 2px solid var(--primary); border-radius: 50%; background: var(--page); }
+.experience-meta { display: flex; flex-direction: column; align-items: flex-start; gap: 3px; }
+.experience-list time { color: var(--muted); font-size: 11px; }
+.experience-meta span { color: var(--muted); font-size: 10.5px; }
+.experience-list h3 { margin: -4px 0 4px; font-size: 16px; line-height: 1.45; }
+.experience-list h4 { margin: 0 0 3px; color: var(--muted); font-size: 13px; font-weight: 550; }
+.experience-list p { margin: 0; color: var(--muted); font-size: 13px; }
+@media (max-width: 560px) { .experience-list::before { left: 5px; } .experience-list article { grid-template-columns: 1fr; gap: 5px; padding-left: 25px; } .experience-list article::before { left: 1px; } }
